@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 12px;
+}
+.subContainer{
+    background-color: hsl(216, 50%, 16%);
+    margin: auto; 
+    height: 65vh; 
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    width: 230px;
+}
+#description{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+h1{
+    padding-right: 75px; 
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+#number{
+    color: hsl(178, 100%, 50%);
+    font-size: 10px;
+    padding-right: 75px;
+    padding-top: 5px;
+}
+#days{
+    color: hsl(215, 51%, 70%);
+    font-size: 10px;
+    padding-top: 2px;
+}
+#author{
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+#name{
+    color: hsl(0, 0%, 100%);
+}
+.Credits{
+    margin-bottom: 15px;
+    padding-right: 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderAndDesc{
+    margin-top: 10px;
+    padding-left: 14px;
+}
+.Figures{
+    
+    margin: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profPic{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
